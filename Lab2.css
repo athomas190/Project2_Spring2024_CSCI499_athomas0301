@@ -1,0 +1,51 @@
+body{
+background-color: darkgray;
+font-family: Arial, sans-serif;
+text-align: center;
+padding: 50px;
+transition: background-color 0.6s ease;
+opacity: 1;
+color: whitesmoke;
+}
+
+header{
+
+font-family: Arial, Helvetica, sans-serif;
+    width:auto;
+    background-color: silver;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px ;
+    font-style: italic;
+    top: 0;
+    left: 0;
+    color: whitesmoke;
+    
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color:blanchedalmond;
+
+}
+
+
+input, button {
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px;
+    color: black;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+.content {
+    display: none;
+}
+.query{
+    text-align: center;
+}
